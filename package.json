@@ -33,9 +33,9 @@
     "url": "git+https://github.com/cakePhone/catppuccin-theme-transparent.git"
   },
   "bugs": {
-    "url": "https://github.com/catppuccin/vscode/issues"
+    "url": "https://github.com/cakePhone/catppuccin-theme-transparent/issues"
   },
-  "homepage": "https://github.com/catppuccin/vscode#readme",
+  "homepage": "https://github.com/cakePhone/catppuccin-theme-transparent#readme",
   "license": "MIT",
   "icon": "icon.png",
   "scripts": {

@@ -1,0 +1,49 @@
+{
+  "name": "catppuccin-mocha-transparent",
+  "displayName": "Catppuccin Mocha Transparent",
+  "description": "Transparent variant of the soothing pastel theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "cakePhone",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "catppuccin",
+    "mocha",
+    "transparent",
+    "dark",
+    "pastel",
+    "colorful"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Catppuccin Mocha Transparent",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha-transparent.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakePhone/catppuccin-theme-transparent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catppuccin/vscode/issues"
+  },
+  "homepage": "https://github.com/catppuccin/vscode#readme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "install-extension": "code --install-extension catppuccin-mocha-transparent-1.0.0.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.0"
+  }
+}

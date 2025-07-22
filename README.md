@@ -6,6 +6,17 @@
 
 This is a transparent variant of the popular Catppuccin Mocha theme for Visual Studio Code. It provides the same beautiful color palette but with transparent backgrounds for various UI elements, creating a more seamless desktop integration experience.
 
+## ⚠️ Important Requirements
+
+**This theme requires additional setup for transparency to work:**
+
+- You must use a fork of VS Code like [code-translucent](https://aur.archlinux.org/packages/code-translucent) (available in AUR) or install an extension that enables window transparency
+- You need to manually set your window background color/opacity - this theme only provides transparent values, not the actual window transparency
+- This theme is primarily designed for **code syntax highlighting and UI elements**, not background/foreground transparency
+- I prefer allowing users to configure their preferred opacity levels rather than forcing specific transparency values
+
+Without proper transparency support, this theme will appear with default opaque backgrounds.
+
 ## Features
 
 - Transparent backgrounds for editor, sidebar, activity bar, and more
